@@ -22,9 +22,11 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("스프링부트 종료");
 
-		System.out.println("깃헙 main브랜치에서 clone하여 수정함");
+		System.out.println("로컬 sub1 브랜치에서 import함");
+		
+		System.out.println("로컬 main 브랜치에서 clone 이후 수정함");
 
-		System.out.println("깃헙 sub1 브랜치에서 import함");
+		System.out.println("로컬 sub1브랜에서 생성한 main 브랜치에서 push함");
 	}
 
 }
