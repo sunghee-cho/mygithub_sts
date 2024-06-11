@@ -21,6 +21,7 @@ public class DemoApplication {
 		System.out.println("스프링부트 시작");
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("스프링부트 종료");
+		System.out.println("깃헙 sub1 브랜치에서 import함");
 	}
 
 }
