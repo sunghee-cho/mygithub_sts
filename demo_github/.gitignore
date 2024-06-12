@@ -33,4 +33,8 @@ build/
 .vscode/
 
 
-src/main/resources/application.properties
+#src/main/resources/application.properties
+
+src/main/java/db_jasypt/JasyptDB_JavaApplication.java
+src/main/java/db_jasypt/JasyptConfig_Javaapplication.java
+src/main/resources/application_backup.properties

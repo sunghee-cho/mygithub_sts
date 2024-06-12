@@ -15,6 +15,8 @@ import org.springframework.context.annotation.ComponentScan;
 @MapperScan("boardmapper")
 
 @ComponentScan(basePackages = "react.session")
+@ComponentScan(basePackages  ="db_jasypt") //@Bean 인식
+
 public class DemoApplication {
 
 	public static void main(String[] args) {
