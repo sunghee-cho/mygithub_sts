@@ -1,14 +1,18 @@
 package com.example.demo;
 
+import lombok.Data;
+
+/*@Setter
+@Getter
+@ToString
+@EqualsAnfHashCode
+@RequiredArgsConstructor
+*/
+
+@Data
 public class HelloDTO {
 	String msg ;
 
-	public String getMsg() {
-		return msg;
-	}
 
-	public void setMsg(String msg) {
-		this.msg = msg;
-	}
 	
 }

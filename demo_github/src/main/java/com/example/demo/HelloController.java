@@ -11,7 +11,10 @@ public class HelloController {
 @RequestMapping("/helloboot")
 public ModelAndView helloboot() {
 	ModelAndView mv = new ModelAndView(); //null; 
-	mv.addObject("model", "스프링부트를 시작합니다");
+	//mv.addObject("model", "스프링부트를 시작합니다");
+	HelloDTO dto = new HelloDTO();
+	dto.setMsg("롬복테스트");
+	mv.addObject("model", dto); //jsp의 ${model}은 dto의 toString 내용 출력
 	mv.setViewName("hello");
 	return mv;
 }
